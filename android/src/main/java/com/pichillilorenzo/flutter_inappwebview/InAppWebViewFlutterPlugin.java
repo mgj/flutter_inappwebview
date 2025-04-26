@@ -40,7 +40,6 @@ public class InAppWebViewFlutterPlugin implements FlutterPlugin, ActivityAware {
   public static ValueCallback<Uri[]> filePathCallback;
 
   public Context applicationContext;
-  public PluginRegistry.Registrar registrar;
   public BinaryMessenger messenger;
   public FlutterPlugin.FlutterAssets flutterAssets;
   @Nullable
